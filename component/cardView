@@ -1,0 +1,41 @@
+import React, { useState } from 'react';
+import { View,Text,TouchableOpacity,ScrollView, StyleSheet,Image} from 'react-native';
+
+const TextWork = () => {
+    const [currentCards, setCurrentCards] = useState(0);
+
+    const Cards = [
+   
+        { 
+            id: 1,
+            title: 'Sign Up',
+            description: 'Build your profile to receive surveys.',
+            icon: 'https://img.icons8.com/color/48/000000/add-user-male.png', 
+            },
+        { 
+               
+            id: 2,
+            title: 'Take Surveys',
+            description: 'Build your profile to receive surveys.',
+            icon: 'https://img.icons8.com/color/48/000000/add-user-male.png', 
+      },   
+      { 
+        id: 3,
+        title: 'Earn Rewards',
+        description: 'Build your profile to receive surveys.',
+        icon: 'https://img.icons8.com/color/48/000000/add-user-male.png', 
+        },
+    ];
+
+    const handleScroll = (event:any) => {
+        const contentOffsetX = event.nativeEvent.contentOffset.x;
+        const index = Math.floor(contentOffsetX/300);
+        setCurrentCards(index);
+    };
+    
+
+   
+    
+};
+
+

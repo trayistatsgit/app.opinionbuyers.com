@@ -1,0 +1,32 @@
+{
+  "name": "My app",
+  "expo": {
+    "name": "MyExpoApp",
+    "slug": "MyExpoApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+       "entryPoint": "./index.ts"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ritikasri.MyExpoApp"
+    },
+    "web": {
+     
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ff670f1-757f-4571-b875-619bb42ba528"
+      }
+    }
+  }
+}

@@ -1,0 +1,258 @@
+import { Button, StyleSheet } from "react-native";
+
+const styles =StyleSheet.create({
+    scrollContainer: {
+        flexGrow: 1,
+        backgroundColor: '#e0f7fa',
+        padding: 7,
+      },
+    headerContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginBottom: 20,
+    },
+    title: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        color: '#f97316',
+    },
+    loginButton: {
+        backgroundColor: '#f97316',
+        paddingVertical: 8,
+        paddingHorizontal: 16,
+        borderRadius: 15,
+    },
+    loginButtonText: {
+        color: '#fff',
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
+    modalContainer: {
+        flex: 1, 
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      },
+      modalContent: {
+        width: '98%',
+       height: '50%',
+        backgroundColor: '#fff',
+        padding: 20,
+        alignItems: 'center',
+      },
+      modalTitle: {
+        fontSize: 22,
+        fontWeight: 'bold',
+        marginBottom: 20,
+      },
+      input: {
+        width: '100%',
+        borderWidth: 1,
+        borderColor: '#ccc',
+          borderRadius: 5,
+          padding: 10,
+          marginBottom: 15,
+      },
+      forget: {
+        marginBottom: 13,
+        color: 'red',
+        marginRight: 240,
+    },
+      continueButton: {
+        backgroundColor: '#0277bd',
+        paddingVertical: 12,
+        paddingHorizontal: 20,
+        borderRadius: 10,
+        flex: 1,
+        width: '94%',
+        height: '70%',
+      },
+      continueButtonText: {
+        color: '#fff',
+        fontSize: 19,
+        fontWeight: 'bold',
+      },
+       closebutton : {
+        position: 'absolute',
+        top: 10,
+        right: 10,
+        zIndex: 1,
+       },
+       crossImage :{
+        width: 20,
+        height: 20,
+        justifyContent: 'flex-end',
+       },
+      socialloginContainer: {
+        flexDirection: 'row',
+        padding: 9,
+        marginBottom:15,
+        justifyContent: 'space-between',
+       },
+      buttonlog: {
+        flexDirection: 'row',
+        width: '43%',
+        padding: 5,
+        borderRadius: 7, 
+        alignItems: 'center',
+        marginTop: 10,
+        justifyContent: 'center',
+      },
+       googleButtonlog: {
+        backgroundColor: '#fff', 
+        borderWidth: 2,
+        borderColor: '#A9A9A9',
+        marginLeft: 11,
+      },
+     
+      facebookButtonlog : {
+      backgroundColor: '#fff',
+      borderWidth: 2,
+      borderColor: '#A9A9A9',
+      marginLeft: 11,
+      },
+      buttonTextlog : {
+        color: '#141414', 
+        fontSize: 16,
+        marginLeft: 10,
+      },
+      footerText2: {
+       fontSize: 16,
+       color: '#007AFF',
+       textAlign: 'center',
+      },
+      formContainersign: {
+        marginTop: 20,
+        padding: 10,
+        borderWidth: 1,
+        borderColor: '#DDD',
+        borderRadius: 10,
+        backgroundColor: '#fff',
+        marginHorizontal: 13,
+     },
+      formTitle: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginBottom: 10,
+        textAlign: 'center',
+      },
+      bonusText: {
+        fontSize: 14, color: '#141414',
+        marginBottom: 10,
+        textAlign: 'center',
+      },
+      checkboxContainer: {
+        flexDirection: 'row',
+       alignItems: 'center',
+       marginTop: 2,
+      },
+      label: {
+        marginLeft: 8,
+        fontSize: 9,
+      },
+      continueButton2: {
+        backgroundColor: '#0277bd',
+        padding: 5,
+        borderRadius: 22,
+        alignItems: 'center',
+        marginTop: 30,
+        marginBottom: 20,
+        marginHorizontal: 4,
+      },
+      continueButtonText2: {
+        color: '#FFF',
+        fontSize: 18,
+        fontWeight: 'bold',
+      },
+      footerText: {
+        fontSize: 16,
+        color: '#141414',
+        textAlign: 'center',
+        marginBottom: 120,
+      },
+      socialsignupContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginBottom: 20,
+
+      },
+      button: {
+        width: '43%', 
+        height: '68%',
+        flexDirection: 'row',
+        borderRadius: 7, 
+        alignItems: 'center',
+        marginBottom: 30,
+        justifyContent: 'center',
+        marginHorizontal: 4,
+      },
+      googleButton: {
+        backgroundColor: '#fff', 
+        borderWidth: 2,
+        borderColor: '#A9A9A9',
+      },
+      facebookButton: {
+        backgroundColor: '#fff',
+        borderWidth: 2,
+        borderColor: '#A9A9A9',
+        marginRight: 19,
+      },
+      buttonText: {
+        color: '#141414', 
+        fontSize: 16,
+        fontWeight: 'bold', 
+        marginLeft: 10,
+        marginRight: 17,
+      },
+      icon: {
+        width: 20,
+        height: 20, 
+        marginLeft: 5,
+       
+      },
+      formContent: {
+        height: '43%',
+     },
+     mainContent: {
+        backgroundColor: '#e0f7fa',
+        padding: 15,
+        borderRadius: 10,
+        marginBottom: 1,
+        width: '45%',
+        height: '50%',
+        justifyContent: 'flex-start',
+      },
+      mainHeader: {
+        fontSize: 30,
+        fontWeight: 'bold',
+        marginBottom: 30,
+      },
+      subheader: {
+        fontSize: 15,
+        fontWeight: 'bold',
+        color: '#141414',
+        marginBottom: 20,
+       },
+      mainDescription: {
+        fontSize: 16,
+        marginBottom: 70,
+        color: '#141414',
+      },
+      joinButton: {
+        backgroundColor: '#0277bd',
+        height: 35,
+        width: 120, 
+        borderRadius: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginLeft: 12,
+      },
+      joinButtonText: {
+       color: '#fff',
+        fontSize: 15,
+        fontWeight: 'bold',
+      },
+});
+
+export default styles;
